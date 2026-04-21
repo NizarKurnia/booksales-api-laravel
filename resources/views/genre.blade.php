@@ -9,10 +9,10 @@
     <h1>Halaman Genre Buku</h1>
     <p>Berbagai macam genre buku ada di sini</p>
 
-    @foreach ($genres as $item)
+    @foreach ($genres as $genre)
         <ul>
-            <li>Genre : {{ $item['name'] }}</li>
-            <li>Deskripsi : {{ $item['description'] }}</li>
+            <li>Genre : {{ $genre['name'] }}</li>
+            <li>Deskripsi : {{ $genre['description'] }}</li>
         </ul>
     
     @endforeach

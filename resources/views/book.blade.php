@@ -9,12 +9,12 @@
     <h1>Book Sales</h1>
     <p>Beli buku di sini aja</p>
 
-    @foreach ($books as $item)
+    @foreach ($books as $book)
     <ul>
-        <li>Judul : {{ $item['title'] }}</li>
-        <li>Deskripsi : {{ $item['description'] }}</li>
-        <li>Harga : {{ $item['price'] }}</li>
-        <li>Stok : {{ $item['stock'] }}</li>
+        <li>Judul : {{ $book['title'] }}</li>
+        <li>Deskripsi : {{ $book['description'] }}</li>
+        <li>Harga : {{ $book['price'] }}</li>
+        <li>Stok : {{ $book['stock'] }}</li>
     </ul>
     
     @endforeach

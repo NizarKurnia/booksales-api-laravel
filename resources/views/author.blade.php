@@ -8,11 +8,11 @@
 <body>
     <h1>List Author dari buku-buku di sini</h1>
 
-    @foreach ($authors as $item)
+    @foreach ($authors as $author)
 
     <ul>
-        <li>Nama : {{ $item['name'] }}</li>
-        <li>Bio : {{ $item['bio'] }}</li>
+        <li>Nama : {{ $author['name'] }}</li>
+        <li>Bio : {{ $author['bio'] }}</li>
     </ul>
     
     @endforeach
