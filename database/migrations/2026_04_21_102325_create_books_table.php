@@ -21,8 +21,8 @@ return new class extends Migration {
             $table->unsignedBigInteger('author_id');
             $table->timestamps();
 
-            $table->foreign('genre_id')->references('id')->on('genres')->onDelete('cascade');
-            $table->foreign('author_id')->references('id')->on('authors')->onDelete('cascade');
+            // $table->foreign('genre_id')->references('id')->on('genres')->onDelete('cascade');
+            // $table->foreign('author_id')->references('id')->on('authors')->onDelete('cascade');
         });
     }
 
