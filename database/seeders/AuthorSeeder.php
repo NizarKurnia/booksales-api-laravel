@@ -16,7 +16,7 @@ class AuthorSeeder extends Seeder
         Author::create([
             'name' => 'Asep',
             'photo' => 'asep.jpg',
-            'bio' => 'Genre dengan cerita yang imajinatif'
+            'bio' => 'Penulis jalanan yang mengangkat kisah-kisah inspiratif dari kehidupan sehari-hari.'
         ]);
         Author::create([
             'name' => 'Maya Sari',
